@@ -1,0 +1,47 @@
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #335;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 36px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+}
+
+.active {
+    background-color: #335;
+}
+.dasp{
+    text-align: center;
+    font-size: 70px;
+    padding: 0px 40px;
+    color: white;
+
+}
+.dasp1{
+    text-align: center;
+    font-size: 70px;
+    padding: 40px 40px;
+    color: white;
+
+}
