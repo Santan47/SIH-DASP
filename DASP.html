@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="DASP.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<title>DASP_0.1</title>
 </head>
 <body>
@@ -11,9 +21,37 @@
   <li><a href="#about"><strong>About</strong></a></li>
   <li style="float:right"><a href="log-in.html"><strong>Login</strong></a></li>
 </ul>
+<section>
+	<div class="container size">
+	<img class="mySlides size" src="img-back/b1.jpg"
+  style="width:100%">
+  <img class="mySlides size" src="img-back/b2.jpg"
+  style="width:100%">
+  <img class="mySlides size" src="img-back/b3.jpg"
+  style="width:100%">
+  <img class="mySlides size" src="img-back/b4.jpeg"
+  style="width:100%">
+  <img class="mySlides size" src="img-back/b5.jpg"
+  style="width:100%">
+	<h1 class="dasp1">DOCTOR'S <br>APPOINTMENT SCHEDULING <br>PLATFORM<br>(DASP)</h1>
+</div>
+</section>
+<script>
+var myIndex = 0;
+carousel();
 
-<div style="padding:20px;margin-top:30px;background-color:#333;height:1500px;">
-	<h1 class="dasp"><u>DASP</u></h1>
-	<h1 class="dasp1">DOCTOR'S <br>APPOINTMENT SCHEDULING <br>PLATFORM</h1>
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+	
 
 </body>
