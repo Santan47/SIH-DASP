@@ -55,12 +55,13 @@ img.size{
     border-radius: 5px;
 }
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 23%;
-    transform: translate(-50%, -50%);
+    margin-top: -500px;
+    text-align: center;
 }
 img.rotate{
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+div.size{
+    height: 500px;
 }
