@@ -1,52 +1,45 @@
-body {margin:0;}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 55px;
-    overflow: hidden;
-    background-color: #91D2F2  ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 10px 25px;
-    text-decoration: none;
-    font-size: 24px;
-}
-
-.active {
-    background-color: #7CCDF6;
-}
-div.size{
-    padding-top: 30px;
-    margin-top: 30px;
-    background-color:white;
-}
-.dasp{
-    text-align: center;
-    font-size: 60px;
-    padding: 0px 40px;
-    color: #0495DE;
-
-}
+ body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+      background-color: #f4511e;
+  }
+  .navbar{
+    margin-bottom: 0;
+    background-color: #f4511e;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }  
 .dasp1{
+    margin-top: -450px;
     text-align: center;
-    font-size: 70px;
+    font-size: 40px;
     padding: 40px 40px;
     color: #333;
     letter-spacing: 4px;
-        line-height: 1.4;
+    line-height: 1.4;
 
 }
 img.size{
@@ -54,14 +47,7 @@ img.size{
     height: 600px;
     border-radius: 5px;
 }
-.centered {
-    margin-top: -500px;
-    text-align: center;
-}
-img.rotate{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
 div.size{
     height: 500px;
+    background-color: black;
 }
