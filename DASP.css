@@ -2,11 +2,11 @@
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
-      background-color: #f4511e;
+      background-color: #027BB4; #f4511e;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color: #027BB4 ;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -19,18 +19,27 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color: #027BB4 !important;
       background-color: #fff !important;
   }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff;
+  .icon-bar{ 
+    background-color: #fff;
   }
-  .jumbotron {
-      background-color: #f4511e;
+  .navbar-toggle {
+      border-color: transparent;
+      color: #333;
+  }
+  div.jumbotron {
+      background-color: #027BB4 ;
       color: #fff;
-      padding: 100px 25px;
+      height: 700px;
+      padding-top: 170px;
+      padding-left: 60px;
+      padding-right: 60px;
       font-family: Montserrat, sans-serif;
+  }
+  .pass{
+    margin-top: 10px;
   }
   h2 {
       font-size: 24px;
