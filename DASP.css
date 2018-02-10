@@ -41,6 +41,17 @@
   .pass{
     margin-top: 10px;
   }
+  .u-d-inline{
+    display: inline;
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    font-style: inherit;
+
+  }
+  .u-d{
+    padding-top: 20px;
+      padding-left: 50px;
+  }
   h2 {
       font-size: 24px;
       text-transform: uppercase;
