@@ -41,16 +41,23 @@
   .pass{
     margin-top: 10px;
   }
-  .u-d-inline{
-    display: inline;
-    font-size: 40px;
-    font-family: Montserrat, sans-serif;
-    font-style: inherit;
-
-  }
   .u-d{
     padding-top: 20px;
-      padding-left: 50px;
+      padding-left: 30px;
+  }
+  .howdaspworks{
+      z-index: 9999;
+      border: 0;
+      font-size: 16px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      text-align: center;
+      font-weight: normal;
+  }
+  p.glyphicon{
+    margin-top: 30px;
   }
   h2 {
       font-size: 24px;
@@ -84,4 +91,14 @@ img.size{
 div.size{
     height: 500px;
     background-color: black;
+}
+.desktophr {
+    position: relative;
+    top: 5px;
+    z-index: 1;
+}
+.mobilehr {
+    position: relative !important;
+    top: 6px !important;
+    width: 100% !important;
 }
